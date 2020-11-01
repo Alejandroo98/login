@@ -1,0 +1,13 @@
+-npm init --yes
+-npm install express          // Es un framewokr de node.js que nos permite escribir codigo del servidor de una manera resumida
+-npm install mongoose        // Es una biblioteca que me permite conectarme a node.js  con mongoDB
+-npm install ejs-mate         //Motor de plantilla  -> No spermite crear multiples plantillas
+-npm install connect-flash    // Nos permite enviar mensajes entre multiples paginas 
+-npm intall morgan            // Es para ver las peticions http que llegan a nuestro servidor
+-npm install passport         // ESTE ES EL QUE NOS VA APERMITIR HACER LA AUTENTIFICACION
+-npm install passport-local   //Esto es para nosotros poder hacerlo de manera local
+-npm install bcrypt-nodejs     // Para sifrar las contraseñas
+-npm install nodemon -D        //Para que se ejecute todo el tiempo neustro servidor
+-npm install express-session    //Sirve para poder almacenar datos en session
+
+Hasta minuto 1:15:58
