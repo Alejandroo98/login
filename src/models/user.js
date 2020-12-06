@@ -14,9 +14,8 @@ userSchema.methods.encryptPassword = ( password ) => { // encryptPassword es el 
 };
 
 //Para desecnriptar la contraseña y saber si coincide o no
-userSchema.methods.comparePassword = ( password ) => { // <-- Si te da errar cambio a este tipo de funcion  ""= funcion ( password ){}""
+userSchema.methods.comparePassword = function ( password ){ // <-- Si te da errar cambio a este tipo de funcion  ""= funcion ( password ){}""
     return bcrypt.compareSync( password , this.password )
-
 }
 
 module.exports = moongose.model( 'users' , userSchema ); //users es el nombre de la collecion con la que guardara los datos dentro de la base de datos

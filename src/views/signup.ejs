@@ -1,7 +1,25 @@
-<form action="/signup" method="POST">
-    <input type="email" name="email" placeholder="email">
-    <input type="password" name="password" placeholder="pass">
+<!-- <% if (signupMessage){ %>
+    <div><%= signupMessage %></div>
+<% } %> -->
+<%- layout('layouts/main.ejs') %>  <!-- Lo que esta esa linea es traer todo lo que e guardado en la carpeta layout es decir se copia lo que hay dentro de esa carpeta -->
 
-    <button type="submit">Registrarse</button>
-    
-</form>
+<div class="row">
+    <div class="col-md-4 offset-md-4">
+        <div class="card tp-4 text-center">
+            <div class="card-header">
+                <h4>Signup</h4>
+            </div>
+            <div class="card-body">
+                <form action="/signup" method="POST">
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="email">
+                    </div>
+                    <div class="form"form-group>
+                        <input type="password" name="password" placeholder="pass">
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-dark mt-4">Registrarse</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

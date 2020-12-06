@@ -10,4 +10,4 @@
 -npm install nodemon -D        //Para que se ejecute todo el tiempo neustro servidor
 -npm install express-session    //Sirve para poder almacenar datos en session
 
-Hasta minuto 1:15:58
+Hasta minuto 1:32

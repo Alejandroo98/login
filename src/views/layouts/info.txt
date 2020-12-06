@@ -1,0 +1,3 @@
+Estos se llaman motores de platilla y lo que hacen es que nosotros escribimos el codigo repetitivo
+en un lugar para no teneer que repetirlo varias veces como por ejemplo la barra de navegacion va en todas las pantallas
+del sitio web per gracias a esto no lo vamos a tener que repetirlo
